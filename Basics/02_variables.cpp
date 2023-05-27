@@ -1,0 +1,30 @@
+// Variables
+#include<iostream>
+
+using namespace std;
+int main()
+{
+    int num1 = 10;
+    bool azim; // New variable in cpp
+
+
+    while(1)
+    {
+        cout<<"    *"<<endl<<"   * *"<<endl<<" * * * *"<<endl;
+        cout<<" - - - - - - - - - - - - - - -"<<endl;
+        cout<<"|'1' for print piremant again |"<<endl;
+        cout<<"|       '0' for Quit          |"<<endl;
+        cout<<" - - - - - - - - - - - - - - -"<<endl;
+        cout<<"Enter: ";
+        cin>>azim;
+        cout<<endl;
+
+        if(azim == false)
+        {
+            break;
+        }
+    }
+
+    return 0;
+}
+// bool is a new variable in cpp. it store only true == 1 or false == 0 value
