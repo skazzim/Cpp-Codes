@@ -1,3 +1,5 @@
+/*
+
 1. Global and local variable name can be same.
    But priorety will be go first to finction incide variable. 
 
@@ -7,7 +9,6 @@
 
     cout<<num;
 
-3. By Deafult cpp compiler read any floating number as floating
-   Ex: 24.56 (For gcc this is duble)
-   To change the type add 'f' or 'f' at the end
-   like this: 24.56f
+3.
+
+*/

@@ -1,4 +1,4 @@
-// First cpp program
+// First cpp program 😃
 
 #include<iostream>
 

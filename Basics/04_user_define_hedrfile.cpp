@@ -1,5 +1,5 @@
 #include<iostream>
-#include"azim.h" // This is user define heder file 
+#include"azim.h" // This is user define heder file 😄
 // This produce an error if 'azim.h' is not present in current directory
 // For mor info google it "cpp referance for heder files"
 

@@ -4,7 +4,10 @@
 using namespace std;
 int main()
 {
-    // Master Peace
+    bool a;
+
+    cin>>a;
+    cout<<a<<endl;
 
     return 0;
 }

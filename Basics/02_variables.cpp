@@ -4,7 +4,7 @@
 using namespace std;
 int main()
 {
-    int num1 = 10;
+    int num1 = 10; // Not used in programm yet 🚫
     bool azim; // New variable in cpp
 
 
@@ -23,6 +23,12 @@ int main()
         {
             break;
         }
+        else if (azim != false || azim != true)
+        {
+            cout<<"Something Went Wrong!"<<endl;
+            break;
+        }
+        
     }
 
     return 0;

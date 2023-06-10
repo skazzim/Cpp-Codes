@@ -9,7 +9,7 @@ int main()
     cout<<"The value of a is: "<<a<<endl;
     cout<<"The value of a (After typecasting into int) is: "<<b<<endl;
     cout<<"The value of a (After typecasting into int) is: "<<(int)a<<endl;
-    cout<<"The value of a (After typecasting into int) is: "<<int(a)<<endl; // Boath are valid
+    cout<<"The value of a (After typecasting into int) is: "<<int(a)<<endl; // Boath are valid 👍
 
     return 0;
 }
