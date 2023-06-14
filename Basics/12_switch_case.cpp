@@ -36,7 +36,7 @@ int main()
         break;
 
     default:
-        cout << "😠😠😠"<<endl;
+        cout << "😠😠😠" << endl;
         break;
     }
 
