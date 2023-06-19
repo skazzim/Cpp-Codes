@@ -11,3 +11,6 @@ int main()
 
     return 0;
 }
+
+// Global and local variable name can be same.
+// But priorety will be go first to finction incide variable.

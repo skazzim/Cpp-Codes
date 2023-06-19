@@ -1,34 +1,34 @@
 // Variables
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 int main()
 {
     int num1 = 10; // Not used in programm yet 🚫
-    bool azim; // New variable in cpp
+    bool azim;     // New variable in cpp
 
-
-    while(1)
+    while (1)
     {
-        cout<<"    *"<<endl<<"   * *"<<endl<<" * * * *"<<endl;
-        cout<<" - - - - - - - - - - - - - - -"<<endl;
-        cout<<"|'1' for print piremant again |"<<endl;
-        cout<<"|       '0' for Quit          |"<<endl;
-        cout<<" - - - - - - - - - - - - - - -"<<endl;
-        cout<<"Enter: ";
-        cin>>azim;
-        cout<<endl;
+        cout << "    *" << endl
+             << "   * *" << endl
+             << " * * * *" << endl;
+        cout << " - - - - - - - - - - - - - - -" << endl;
+        cout << "|'1' for print piremant again |" << endl;
+        cout << "|       '0' for Quit          |" << endl;
+        cout << " - - - - - - - - - - - - - - -" << endl;
+        cout << "Enter: ";
+        cin >> azim;
+        cout << endl;
 
-        if(azim == false)
+        if (azim == false)
         {
             break;
         }
         else if (azim != false || azim != true)
         {
-            cout<<"Something Went Wrong!"<<endl;
+            cout << "Something Went Wrong!" << endl;
             break;
         }
-        
     }
 
     return 0;
