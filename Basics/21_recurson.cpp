@@ -1,12 +1,10 @@
 #include<iostream>
-#include<stdio.h>
 
 using namespace std;
 int main()
 {
-    bool a;
 
-    cin>>a;
-    cout<<a<<endl;
+    // Error code 18 !
+    
     return 0;
 }

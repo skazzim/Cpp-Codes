@@ -15,19 +15,19 @@ union azzim
 
 int main()
 {
-    // struct azim A1;
+    struct azim A1;
 
-    // A1.num = 100;
-    // A1.fnum = 100.99;
+    A1.num = 100;
+    A1.fnum = 100.99;
 
-    // cout<<A1.num<<endl<<A1.fnum<<endl;
+    cout<<A1.num<<endl<<A1.fnum<<endl;
 
     union azzim A2;
 
-    A2.num = 1;
+    A2.num = 100;
     A2.fnum = 100.99;
 
-    cout<<A2.num<<endl;
+    cout<<A1.num<<endl<<A1.fnum<<endl;
 
     return 0;
 }
