@@ -1,3 +1,5 @@
+// This program demonstrates the use of a class.
+
 #include <iostream>
 using namespace std;
 
@@ -33,7 +35,7 @@ int main()
     azim.d = 4;
     azim.e = 5;
 
-    azim.set_data(1,2,3);
+    azim.set_data(1, 2, 3);
     azim.show_data();
 
     return 0;

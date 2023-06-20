@@ -1,4 +1,5 @@
-// This program takes a binary number from the user, checks if it is binary, and then converts the binary number into its one's complement.
+// This program takes a binary number from the user, checks if it is binary.
+// Then converts the binary number into its one's complement.
 
 #include <iostream>
 #include <string>
@@ -66,7 +67,6 @@ int main()
     st.read_str();
     st.chk_bin();
     st.onst_comp();
-    st.onst_comp_display();
 
     return 0;
 }

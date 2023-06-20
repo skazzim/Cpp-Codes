@@ -1,11 +1,8 @@
 /*
  * GIT HUB COMMANDS:
- *                  --> git init
- *                  --> git branch -M main
  *                  --> git config --global user.email "your_email@example.com"
  *                  --> git config --global user.name "Your Name"
  *                  --> git add .
- *                  --> git remote add origin <repository-url>
  *                  --> git commit -m "Add new feature"
  *                  --> git push origin main
  * 
